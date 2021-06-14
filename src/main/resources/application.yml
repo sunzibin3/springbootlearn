@@ -1,0 +1,28 @@
+persion:
+  userName: 'sunzibin \n lisi'
+  boss: true
+  birth: 2019/12/9
+  age: 10
+#  interests: ["足球","篮球"]
+  interests:
+    - 足球
+    - 篮球
+    - 18
+  animal: ["老虎","狮子"]
+#  score: {"数学":80}
+  score:
+    ENGLISH: 20
+    MATCH: 10
+  salarys:
+    - 99
+    - 10
+    - 20
+  pet:
+    name: dog
+    weight: 99.96
+  allPets:
+    sick:
+      - {name: dog,weight: 1000}
+      - {name: jerry,weight: 47}
+    health: [{name: mario,weight: 47}]
+
