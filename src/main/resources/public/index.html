@@ -5,6 +5,27 @@
     <title>index</title>
 </head>
 <body>
-    <span>欢迎</span>
+    <!--<span>欢迎</span>-->
+    <br/>
+    <form action="/user" method="get">
+        <input value="rest-get 提交" type="submit"/>
+    </form>
+    <form action="/user" method="post">
+        <input value="rest-post 提交" type="submit"/>
+    </form>
+    <form action="/user" method="post">
+        <input name="_method" type="hidden" value="DELETE" />
+        <input value="rest-delete 提交" type="submit"/>
+    </form>
+    <form action="/user" method="post">
+        <input name="_method" type="hidden" value="PUT" />
+        <input value="rest-put 提交" type="submit"/>
+    </form>
+
+    <form action="/saveUser" method="post">
+      姓名 ：<input name="userName" value="张三"/>
+      生日：<input name="age" value="20210605" />
+        <input value="commit" type="submit">
+    </form>
 </body>
 </html>
